@@ -1,0 +1,917 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #F2F2F2;
+}
+
+header{
+    background-color: gray;
+    margin-top: none;
+    padding-top:none;
+    width: 100%;
+    background-color: #F2F2F2;
+    margin-bottom: none;
+}
+
+header a{
+    color: black;
+    font-weight: 200;
+}
+
+header button{
+    width: 180%;
+    padding-right: 10%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: gray;
+}
+
+header>nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration-line: none;
+}
+
+h1{
+    font-size: 200%;
+    font-weight: 400;
+}
+
+
+main{
+    display: grid;
+    max-width: 100%;
+    margin: auto;
+   grid-template-columns: 2fr 1fr;
+   background-color: #f1f7ff;
+   margin-top: none;
+    
+}
+
+.top-left{
+    padding-left: 12%;
+    padding-top: 10%;
+}
+
+.top-left p{
+    font-size:120%;
+    padding-right: 40%;
+}
+
+.top-left input{
+width: 35%;
+height: 6%;
+margin-right: 2%;
+}
+
+.top-left legend{
+    font-size: 80%;
+    margin-bottom: 2%;
+}
+
+.top-left button{
+    width: 15%;
+    height: 7%;
+    border-radius: 7%;
+}
+
+.top-right img{
+    mix-blend-mode: multiply;
+    height: 100%;
+}
+
+h2{
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 27%;
+    font-size: 200%;
+}
+
+.section2{
+    width: 100%;
+}
+
+.middle-left{
+    width: 50%;
+    float: left;
+    padding-left: 19%;
+    font-size: 19px;
+    padding-right: 4%;
+}
+
+.middle-right{
+    width: 50%;
+    float: left;
+    font-size: 19px;
+    padding-right: 20%;
+}
+
+.middle-left span{
+    border-top: 3px solid pink;
+}
+
+.middle-right span{
+    border-top: 3px solid pink;  
+}
+
+.italics{
+    margin-top: 6%;
+    padding-right: 30%;
+    width: 100%;
+    padding: none;
+    text-align: center;
+    font-style: italic;
+    font-size: 19px;
+    padding-left: 25%;
+    font-weight: lighter;
+    clear: left;
+}
+
+.history{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    grid-auto-rows: 30%;
+    background-color: #f1f7ff;
+    padding-top: 2%;
+}
+
+.historyblurb>h3{
+    font-size: 150%;
+}
+
+.historyblurb{
+grid-column: 1/3;
+grid-row: 1/3;
+padding-left: 9%;
+font-size: 20px;
+padding-right: 15%;
+line-height: 1.3;
+margin-top: -2%;
+}
+
+.historyblurb p{
+    opacity: .75;
+}
+
+.photos{
+    float: right;
+    max-width: 30%;
+    margin-top: 8%;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.photos figcaption{
+    text-align: center;
+    padding-right: none;
+    position: relative;
+    width: 100%;
+    left: 95%;
+}
+
+.atsuko{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    grid-template-rows: 1fr 4fr;
+    border: 1px groove gray;
+    margin: 2% 6%;
+}
+
+.atsuko img{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/3
+}
+
+.atsuko  p{
+    display: grid;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    padding: 0 5%;
+    font-size: 20px;
+}
+
+.atsuko h4{
+    display: grid;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+.whoweare h3{
+    text-align: center;
+    font-size: 175%;
+}
+
+.foundations{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    grid-template-rows: 1fr;
+    margin: 0 3%;
+}
+
+.foundation1{
+    font-size: 120%;
+    padding-left: 3%;
+    padding-right: 8%;
+    opacity: 0.8;
+}
+
+.foundation1 h4{
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+.foundation2{
+    font-size: 120%;
+    padding-right: 10%;
+    opacity: 0.8;
+}
+
+.foundation2 img{
+    width: 25%;
+    height: 20%;
+}
+
+.newsletter{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 15px;
+    grid-template-rows: 1fr;
+    background-color: #B8C5D0;
+    padding-top: none;
+    margin-top: none;
+}
+
+.copyright{
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 5px;
+    grid-template-rows: 2fr;
+    border-bottom: 1px solid white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    color: white;
+    font-weight: bold;
+    background-color: #8F9CA3;
+
+}
+
+.copyright p{
+    margin-top: none;
+    padding-top: none;
+}
+
+
+
+.links{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+gap:10px;
+grid-template-rows: 5fr;
+color: white;
+background-color: #8F9CA3;
+}
+
+section>ul{
+    list-style-type: none;
+    text-decoration-line:none;
+}
+
+#bottomlinks{
+    text-decoration: none;
+    text-decoration-line:none;
+}
+
+button{
+    background-color: #8F9CA3;
+}
+
+footer a{
+    text-decoration-line: none;
+    color: white;
+}
+
+footer li:first-of-type{
+    font-weight: bolder;
+}
+
+@media (max-width: 1024px){
+        .top-right{
+            display: flex;
+            align-items: center;
+        }
+        
+        .top-right img{
+            width: 100%;
+        }
+        
+         .section2{
+            margin-bottom: 15%;
+         }
+         
+         .top-left legend{
+        margin-bottom: 1%;
+          }
+        
+        .photo1{
+            margin-top: 30%;
+            margin-bottom: 85%;
+        }
+        
+        .photo2{
+            margin-top: 185%;
+        }
+        
+        .top-left{
+            padding-top: 2%;
+        }
+        
+        .atsuko{
+            gap: none;
+            margin-left: 0 1%;
+            margin-bottom: 1%;
+        }
+        
+        .newsletter{
+            padding-top: 1%;
+        }
+        
+        .newsletter p{
+            padding-left: 15%;
+        }
+
+        
+        }
+        
+
+@media (max-width: 980px) {
+.top-right{
+    display: flex;
+    align-items: center;
+}
+
+.top-right img{
+    width: 100%;
+}
+
+ #empower{
+    font-size: 15px;
+    position: relative;
+ }
+
+ .section2{
+    margin-bottom: 15%;
+ }
+ 
+ .top-left legend{
+margin-bottom: 1%;
+  }
+
+.photo1{
+    margin-top: 30%;
+    margin-bottom: 85%;
+}
+
+.photo2{
+    margin-top: 185%;
+}
+
+.top-left{
+    padding-top: 2%;
+}
+
+.atsuko{
+    gap: none;
+    margin-left: 0 1%;
+    margin-bottom: 1%;
+}
+
+.newsletter{
+    padding-top: 1%;
+}
+
+.newsletter p{
+    padding-left: 15%;
+}
+
+.middle-left, .middle-right{
+    right: 15%;
+}
+
+h2{
+    left: 1%;
+}
+}
+
+
+@media (max-width: 860px) {
+        
+    .top-left legend{
+    margin-bottom: 1%;
+    }
+
+    .history{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photos{
+        margin-left: 25%;
+        margin-bottom: none;
+    }
+
+    main{
+        margin-left: 5%;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .top-left p{
+        padding-right: 20%;
+        padding-top: -50%;
+    }
+    
+    .top-left img{
+        margin-bottom: none;
+    }
+
+    .middle-left{
+        margin-left: 14%;
+        width: 40%;
+        padding-left: 2%;
+    }
+
+    .middle-right{
+        width: 40%;
+        padding-right: 2%;
+    }
+
+    h2{
+        padding-right: none;
+        margin-left: 10%;
+    }
+
+    .italics{
+        margin-left: 4%;
+    }
+
+    .atsuko{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .atsuko img{
+        margin: 0 5%;
+    }
+
+    .links{
+        display: flex;
+        flex-wrap: wrap;
+        }
+
+    .copyright{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .foundation1 , .foundation2{
+        font-size: 15px;
+    }
+
+    .foundations{
+        margin-bottom: 2%;
+    }
+
+    .photos{
+        display: flex;
+        float: none;
+        flex-direction: column;
+        margin: none;
+    }
+}
+
+@media (max-width: 768px) {
+main{
+    width: 100%;
+    right:2.5%;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+    position: relative;
+}
+
+.history{
+    width: 100%;
+    position: relative;
+    left: 2%;
+}
+
+.photo1{
+    position: absolute;
+    top: -8%;
+    margin-right: 8%;
+    margin-left: -3%;
+
+}
+
+figcaption{
+    display: none;
+}
+
+
+
+}
+
+@media (max-width: 700px) {
+    .copyright{
+        font-size: 14px;
+    }
+
+    .photo2{
+        display: none;
+    }
+
+    .top-right{
+        padding-top: 20%;
+    }
+
+    .photos{
+        margin-left: 16%;
+    }
+
+    .top-left button{
+        width: 35%;
+    }
+
+    h2{
+        margin: none;
+    }
+}
+
+@media (max-width: 595px){
+ .photos{
+    margin-left: 11%;
+ }   
+ 
+ figcaption{
+    margin:none;
+    padding: none;
+    width: 100%;
+ }
+
+ #jp, #tech, #contact{
+    display: none;
+ }
+
+ .foundations{
+    margin-bottom: -4%;
+ }
+
+ .foundation2 img{
+    width: 100%;
+    height: 15%;
+    padding-top: 8%;
+ }
+}
+
+@media (max-width: 425px){
+main{
+display: flex;
+ width: 100%;
+ position: relative;
+ right: 5%;
+}
+
+header{
+    position: relative;
+    right: 6%;
+}
+
+legend{
+    font-size: 1px;
+}
+
+main input, button{
+    position: relative;
+    left: 10%;
+    }
+
+.top-left p{
+    position: relative;
+    left: 10%;
+    margin: none;
+    padding: none;
+}
+
+.top-right img{
+    display: none;
+}
+
+h1{
+    position: relative;
+    left: -5%;
+}
+
+body{
+    width: 100%;
+}
+
+.top-left img{
+    position: relative;
+    right: 10%;
+}
+
+.section2{
+    position: relative;
+    left: 2%;
+}
+
+.middle-left, .middle-right{
+    font-size: 16px;
+}
+
+.italics{
+    position: relative;
+    left: 3%;
+}
+
+h2{
+    margin: none;
+    padding: none;
+    position: relative;
+    left: -5%;
+}
+
+.photo1{
+    display: none;
+}
+
+.history{
+    position: relative;
+    left: 1%;
+    text-align: center;
+}
+
+footer{
+    width: 109%;
+}
+
+.foundations{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+    position: relative;
+    left: 5%;
+}
+
+.foundation2 img{
+    width: 50%;
+    position: relative;
+    left: 20%;
+}
+
+.newsletter{
+    width: 109%;
+}
+
+.programlinks{
+    position: relative;
+    right: 5%;
+}
+}
+
+@media (max-width: 375px) {
+    main{
+        width: 550px;
+        position: relative;
+        left: -1%;
+        margin: none;
+       }
+       
+       main input, button{
+       position: relative;
+       left: 9%;
+       }
+       
+       .top-left p{
+           position: relative;
+           left: 10%;
+           margin: none;
+           padding: none;
+       }
+       
+       .top-right img{
+           display: none;
+       }
+       
+       h1{
+           position: relative;
+           left: -5%;
+       }
+       
+       body{
+           width: 95%;
+           padding-left: 5%;
+       }
+       
+       .top-left img{
+           position: relative;
+           right: 0%;
+           width: 80%;
+       }
+       
+       .section2{
+           position: relative;
+           right: -15%;
+       }
+       
+       .italics{
+           left: 0%;
+       }
+       
+       h2{
+           margin: none;
+           padding: none;
+           position: relative;
+           left: -5%;
+       }
+       
+       .photo1{
+           display: none;
+       }
+       
+       .history{
+           position: relative;
+           left: 4%;
+       }
+       
+       footer{
+           width: 109%;
+       }
+       
+       .newsletter{
+           width: 109%;
+       }
+
+       .newsletter input{
+        width: 90%;
+        position: relative;
+        right: 35%;
+       }
+
+       .newsletter button{
+        position: relative;
+        left: -45%;
+       }
+
+}
+
+@media (max-width: 320px) {
+    main{
+        width: 550px;
+        position: relative;
+        left: 1%;
+        margin: none;
+       }
+       
+       main input, button{
+       position: relative;
+       left: 11%;
+       }
+       
+       .top-left p{
+           position: relative;
+           left: 5%;
+           margin: none;
+           padding: none;
+           font-size: 17px;
+           text-align: center;
+       }
+       
+       .top-right img{
+           display: none;
+       }
+       
+       h1{
+           position: relative;
+           left: -2%;
+       }
+       
+       body{
+           width: 85%;
+       }
+       
+       .top-left img{
+           position: relative;
+           right: 0%;
+           width: 80%;
+       }
+       
+       .section2{
+           position: relative;
+           left: 7%;
+       }
+
+       .section2 p{
+        padding: 0 -5%;
+        margin: 0;
+       }
+       
+       #jwlia, #fellow{
+        display: none;
+       }
+
+       .middle-left, .middle-right{
+        font-size: 12px;
+       }
+
+       .italics{
+        position:relative;
+           left: 6%;
+       }
+       
+       h2{
+           margin: none;
+           padding: none;
+           position: relative;
+           left: -5%;
+       }
+       
+       .photo1{
+           display: none;
+       }
+       
+       .history{
+           position: relative;
+           left: 8%;
+       }
+
+       .whoweare{
+        position: relative;
+        left: 6%;
+       }
+       
+       footer{
+           width: 109%;
+           position: relative;
+           left: 5%;
+       }
+       
+       .newsletter{
+           width: 109%;
+       }
+
+       .foundations{
+        left: 10%;
+       }
+
+       .foundation1 h4{
+        text-align:center;
+        padding-right: 15%;
+       }
+
+       .newsletter{
+        width: 109%;
+        position: relative;
+        left: 5%;
+    }
+
+    .newsletter input{
+     width: 90%;
+     position: relative;
+     right: 35%;
+    }
+
+    .newsletter button{
+     position: relative;
+     left: -45%;
+    }
+
+    footer ul{
+        font-size: 12px;
+    }
+
+    .copyright{
+        font-size: 12px;
+    }
+
+}
