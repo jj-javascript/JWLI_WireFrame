@@ -172,13 +172,7 @@ margin-top: -2%;
     margin-bottom: 3%;
 }
 
-.photos figcaption{
-    text-align: center;
-    padding-right: none;
-    position: relative;
-    width: 100%;
-    left: 95%;
-}
+
 
 .atsuko{
     display: grid;
@@ -533,10 +527,6 @@ main{
 
 }
 
-figcaption{
-    display: none;
-}
-
 
 
 }
@@ -571,12 +561,6 @@ figcaption{
  .photos{
     margin-left: 11%;
  }   
- 
- figcaption{
-    margin:none;
-    padding: none;
-    width: 100%;
- }
 
  #jp, #tech, #contact{
     display: none;
